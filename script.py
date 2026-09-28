@@ -25,7 +25,7 @@ def act_II():
             'alert.track = 0\n',
             'counttype = number of events\n',
             'cron_schedule = */10 * * * *\n',
-            f'description = {keyword}\n',
+            f'description = {description}\n',
             'dispatch.earliest_time = -10m\n',
             'dispatch.latest_time = now\n',
             'display.events.fields = ["host","sourcetype"]\n',
